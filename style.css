@@ -174,12 +174,14 @@ h3 {
   color: #999;
   transform: translateY(1px);
 }
+
 .form-control:-moz-placeholder {
   font-size: 14px;
   font-family: "Muli-Regular";
   color: #999;
   transform: translateY(1px);
 }
+
 .form-control:focus {
   border-bottom: 1px solid #accffe;
 }
