@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="inner">
+        <img
+          src="./Images/Woman_Teacher_Holding_a_Stick_3D_Stick__HD_-removebg-preview.png"
+          alt="A women teacher"
+          class="image-1"
+        />
+        <form>
+          <h3>Registration Form</h3>
+          <div class="form-holder">
+            <div class="form-data">
+              <i class="fa-solid fa-circle-user"></i>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Username"
+                required
+                autocomplete="off"
+                id="username"
+              />
+            </div>
+            <div class="error" id="usernameError"></div>
+          </div>
+
+          <div class="form-holder">
+            <div class="form-data">
+              <i class="fa-solid fa-square-phone"></i>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Phone number"
+                required
+                autocomplete="off"
+                id="phone"
+              />
+            </div>
+            <div class="error" id="phoneError"></div>
+          </div>
+
+          <div class="form-holder">
+            <div class="form-data">
+              <i class="fa-solid fa-envelope"></i>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email"
+                required
+                autocomplete="off"
+                id="email"
+              />
+            </div>
+            <div class="error" id="emailError"></div>
+          </div>
+
+          <div class="form-holder">
+            <div class="form-data">
+              <i class="fa-solid fa-lock"></i>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Password"
+                required
+                autocomplete="off"
+                id="password"
+              />
+            </div>
+            <div class="error" id="passwordError"></div>
+          </div>
+
+          <div class="form-holder">
+            <div class="form-data">
+              <i class="fa-solid fa-unlock-keyhole"></i>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Confirm Password"
+                required
+                autocomplete="off"
+                id="confirmPassword"
+              />
+            </div>
+            <div class="error" id="confirmPasswordError"></div>
+          </div>
+
+          <button class="formSubmit">
+            <span>Register</span>
+          </button>
+        </form>
+        <img
+          src="./Images/Notes_3D_Model__HD_-removebg-preview.png"
+          alt="A notepad"
+          class="image-2"
+        />
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
